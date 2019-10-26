@@ -1,0 +1,5 @@
+body{background-image: url("Bagan.jpg");background-repeat: no-repeat;width: 100%;}
+#mainbc{background-color:DA943B;width: 70%;height: 70%;
+margin:100px 50px 50px 100px;position:relative;}
+.info1{float: left;width: 50%;text-align: center;padding-top: 60px;color: white;}
+.info{text-align: center;}
