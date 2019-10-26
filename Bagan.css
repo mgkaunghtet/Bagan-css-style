@@ -1,5 +1,29 @@
-body{background-image: url("Bagan.jpg");background-repeat: no-repeat;width: 100%;}
-#mainbc{background-color:DA943B;width: 70%;height: 70%;
-margin:100px 50px 50px 100px;position:relative;}
-.info1{float: left;width: 50%;text-align: center;padding-top: 60px;color: white;}
-.info{text-align: center;}
+body{background-image: url("Bagan.jpg");
+background-repeat: no-repeat;text-align: center;
+}
+#mainbc{
+   position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 400px;
+	width: 1200px;
+   display: flex;
+}
+.info1{	width: 50%;
+	height: 100%;
+	background: #e3a358;
+	box-sizing: border-box;
+	padding: 50px 0 50px 0;
+	color: white;
+	
+    
+}
+.info{	width: 50%;
+	height: 100%;
+	background: white;
+	box-sizing: border-box;
+    border-left: 100px solid  #e3a358;
+	border-bottom: 400px solid transparent;
+
+}
