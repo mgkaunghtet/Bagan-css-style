@@ -1,6 +1,9 @@
 body{background-image: url("Bagan.jpg");
-background-repeat: no-repeat;text-align: center;
+background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
 }
+
 #mainbc{
    position: absolute;
 	top: 50%;
@@ -9,6 +12,7 @@ background-repeat: no-repeat;text-align: center;
 	height: 400px;
 	width: 1200px;
    display: flex;
+	box-shadow: black 5px 5px 5px;
 }
 .info1{	width: 50%;
 	height: 100%;
@@ -25,5 +29,9 @@ background-repeat: no-repeat;text-align: center;
 	box-sizing: border-box;
     border-left: 100px solid  #e3a358;
 	border-bottom: 400px solid transparent;
+	
 
 }
+input{border-style: none;
+border:none;
+border-bottom: 1px solid black;}
